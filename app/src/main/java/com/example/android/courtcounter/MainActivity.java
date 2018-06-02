@@ -101,4 +101,11 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    public void resetScore(View v){
+        scoreA =0;
+        displayForTeamA(scoreA);
+        scoreB=0;
+        displayForTeamB(scoreB);
+    }
+
 }
